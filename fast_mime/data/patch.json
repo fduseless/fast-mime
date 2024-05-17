@@ -1,0 +1,568 @@
+[
+  {
+    "type": "text/plain",
+    "extensions": [
+      "txt",
+      "asc"
+    ],
+    "parents": [
+
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/illustrator",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/pdf"
+    ],
+    "magic": null
+  },
+  {
+    "type": "image/vnd.adobe.photoshop",
+    "extensions": [
+      "psd",
+      "psb"
+    ],
+    "parents": [
+
+    ],
+    "magic": [
+      [
+        0,
+        "8BPS"
+      ]
+    ]
+  },
+  {
+    "type": "application/vnd.ms-excel",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/x-ole-storage"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.ms-powerpoint",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/x-ole-storage"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/zip"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.ms-word.document.macroenabled.12",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.ms-word.template.macroenabled.12",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/zip"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.template",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.ms-excel.sheet.macroenabled.12",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.ms-excel.template.macroenabled.12",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.ms-excel.addin.macroenabled.12",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.ms-excel.sheet.binary.macroenabled.12",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/zip"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.openxmlformats-officedocument.presentationml.template",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.openxmlformats-officedocument.presentationml.slideshow",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.ms-powerpoint.addin.macroenabled.12",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.ms-powerpoint.presentation.macroenabled.12",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.ms-powerpoint.template.macroenabled.12",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.ms-powerpoint.slideshow.macroenabled.12",
+    "extensions": [
+
+    ],
+    "parents": [
+      "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.apple.pages",
+    "extensions": [
+      "pages"
+    ],
+    "parents": [
+      "application/zip"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.apple.numbers",
+    "extensions": [
+      "numbers"
+    ],
+    "parents": [
+      "application/zip"
+    ],
+    "magic": null
+  },
+  {
+    "type": "application/vnd.apple.keynote",
+    "extensions": [
+      "key"
+    ],
+    "parents": [
+      "application/zip"
+    ],
+    "magic": null
+  },
+  {
+    "type": "audio/aac",
+    "extensions": [
+      "aac"
+    ],
+    "parents": [
+      "audio/x-aac"
+    ],
+    "magic": null
+  },
+  {
+    "type": "audio/ogg",
+    "extensions": [
+      "ogg",
+      "oga"
+    ],
+    "parents": [
+
+    ],
+    "magic": [
+      [
+        0,
+        "OggS",
+        [
+          [
+            29,
+            "vorbis"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "image/vnd.dwg",
+    "extensions": [
+
+    ],
+    "parents": [
+
+    ],
+    "magic": [
+      [
+        0,
+        "AC10"
+      ]
+    ]
+  },
+  {
+    "type": "application/x-x509-ca-cert",
+    "extensions": [
+      "pem"
+    ],
+    "parents": [
+      "application/x-x509-cert;format=pem"
+    ],
+    "magic": [
+      [
+        0,
+        "-----BEGIN CERTIFICATE-----"
+      ]
+    ]
+  },
+  {
+    "type": "image/avif",
+    "extensions": [
+      "avif"
+    ],
+    "parents": [
+
+    ],
+    "magic": [
+      [
+        4,
+        "ftypavif"
+      ]
+    ]
+  },
+  {
+    "type": "image/heif",
+    "extensions": [
+      "heif"
+    ],
+    "parents": [
+
+    ],
+    "magic": [
+      [
+        4,
+        "ftypmif1"
+      ]
+    ]
+  },
+  {
+    "type": "image/heic",
+    "extensions": [
+      "heic"
+    ],
+    "parents": [
+
+    ],
+    "magic": [
+      [
+        4,
+        "ftypheic"
+      ]
+    ]
+  },
+  {
+    "type": "image/x-raw-sony",
+    "extensions": [
+      "arw"
+    ],
+    "parents": [
+      "image/tiff"
+    ],
+    "magic": null
+  },
+  {
+    "type": "image/x-raw-canon",
+    "extensions": [
+      "cr2",
+      "crw"
+    ],
+    "parents": [
+      "image/tiff"
+    ],
+    "magic": null
+  },
+  {
+    "type": "video/mp4",
+    "extensions": [
+      "mp4",
+      "m4v"
+    ],
+    "parents": [
+
+    ],
+    "magic": [
+      [
+        4,
+        "ftypisom"
+      ],
+      [
+        4,
+        "ftypM4V "
+      ]
+    ]
+  },
+  {
+    "type": "audio/flac",
+    "extensions": [
+      "flac"
+    ],
+    "parents": [
+      "audio/x-flac"
+    ],
+    "magic": [
+      [
+        0,
+        "fLaC"
+      ]
+    ]
+  },
+  {
+    "type": "audio/x-wav",
+    "extensions": [
+      "wav"
+    ],
+    "parents": [
+      "audio/vnd.wav"
+    ],
+    "magic": [
+      [
+        0,
+        "RIFF",
+        [
+          [
+            8,
+            "WAVE"
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "type": "audio/mpc",
+    "extensions": [
+      "mpc"
+    ],
+    "parents": [
+
+    ],
+    "magic": [
+      [
+        0,
+        "MPCKSH"
+      ]
+    ]
+  },
+  {
+    "type": "font/ttf",
+    "extensions": [
+      "ttf",
+      "ttc"
+    ],
+    "parents": [
+
+    ],
+    "magic": [
+      [
+        0,
+        "\u0000\u0001\u0000\u0000"
+      ]
+    ]
+  },
+  {
+    "type": "font/otf",
+    "extensions": [
+      "otf"
+    ],
+    "parents": [
+      "font/ttf"
+    ],
+    "magic": [
+      [
+        0,
+        "OTTO"
+      ]
+    ]
+  },
+  {
+    "type": "application/vnd.adobe.flash.movie",
+    "extensions": [
+      "swf"
+    ],
+    "parents": [
+
+    ],
+    "magic": [
+      [
+        0,
+        "FWS"
+      ],
+      [
+        0,
+        "CWS"
+      ]
+    ]
+  },
+  {
+    "type": "application/sql",
+    "extensions": [
+      "sql"
+    ],
+    "parents": [
+
+    ],
+    "magic": null
+  },
+  {
+    "type": "text/vcard",
+    "extensions": [
+      "vcf"
+    ],
+    "parents": [
+      "text/plain"
+    ],
+    "magic": [
+      [
+        0,
+        "BEGIN:VCARD"
+      ]
+    ]
+  },
+  {
+    "type": "application/vnd.ms-access",
+    "extensions": [
+      "mdb",
+      "mde",
+      "accdb",
+      "accde"
+    ],
+    "parents": [
+      "application/x-msaccess"
+    ],
+    "magic": [
+      [
+        0,
+        "\u0000\u0001\u0000\u0000Standard Jet DB"
+      ],
+      [
+        0,
+        "\u0000\u0001\u0000\u0000Standard ACE DB"
+      ]
+    ]
+  },
+  {
+    "type": "text/markdown",
+    "extensions": [
+      "md",
+      "mdtext",
+      "markdown",
+      "mkd"
+    ],
+    "parents": [
+      "text/x-web-markdown"
+    ],
+    "magic": null
+  }
+]

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fast-mime"
+version = "0.1.0"
+description = ""
+authors = ["Chongchen Chen <chenkovsky@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+requests = "^2.31.0"
+pytest = "^8.2.0"
+pre-commit = "^3.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+tika = 'main:download_tika_data'

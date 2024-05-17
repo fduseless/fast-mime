@@ -1,0 +1,28 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.2.0
+    hooks:
+      - id: check-yaml
+      - id: debug-statements
+
+  - repo: https://github.com/RobertCraigie/pyright-python
+    rev: v1.1.352
+    hooks:
+      - id: pyright
+
+  - repo: https://github.com/psf/black
+    rev: "24.2.0" # Use the sha / tag you want to point at
+    hooks:
+      - id: black
+      - id: black-jupyter
+
+  - repo: https://github.com/PyCQA/bandit
+    rev: "1.7.7" # Use the sha / tag you want to point at
+    hooks:
+      - id: bandit
+        exclude: tests
+        args:
+        - -s
+        - B101,B314,B113,B405
