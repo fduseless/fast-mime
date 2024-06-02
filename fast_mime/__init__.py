@@ -5,7 +5,7 @@ import json
 import os
 from pathlib import Path
 import re
-from typing import IO, Dict, List, Tuple
+from typing import IO, Any, Dict, Generator, List, Tuple
 import xml.etree.ElementTree as ET
 
 from typing import TypeVar
@@ -364,6 +364,9 @@ class Mime:
         self._bytes_end = max([magic.bytes_end for magic, _ in self._magics], default=0)
         self._patch()
 
+    def exts_of(self, content_type: str) -> List[str] | None:
+        return self._type_exts.get(content_type)
+
     @classmethod
     def _default_patch_file(cls) -> str:
         return os.path.join(os.path.dirname(__file__), "data", "patch.json")
@@ -592,12 +595,14 @@ class Mime:
         return None
 
     @contextmanager
-    def _with_io(self, pathname_or_io: Path | str | IO[bytes]):
-        if isinstance(pathname_or_io, IO):
+    def _with_io(
+        self, pathname_or_io: Path | str | IO[bytes]
+    ) -> Generator[IO[bytes], Any, None]:
+        if isinstance(pathname_or_io, Path) or isinstance(pathname_or_io, str):
+            with open(pathname_or_io, "rb") as fi:
+                yield fi
+        else:
             yield pathname_or_io
-            return
-        with open(pathname_or_io, "rb") as fi:
-            yield fi
 
 
 MIME = Mime.from_xmls()
