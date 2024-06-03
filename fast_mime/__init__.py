@@ -602,7 +602,9 @@ class Mime:
             with open(pathname_or_io, "rb") as fi:
                 yield fi
         else:
+            offset = pathname_or_io.tell()
             yield pathname_or_io
+            pathname_or_io.seek(offset)
 
 
 MIME = Mime.from_xmls()
