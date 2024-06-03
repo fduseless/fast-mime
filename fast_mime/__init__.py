@@ -603,8 +603,10 @@ class Mime:
                 yield fi
         else:
             offset = pathname_or_io.tell()
-            yield pathname_or_io
-            pathname_or_io.seek(offset)
+            try:
+                yield pathname_or_io
+            finally:
+                pathname_or_io.seek(offset)
 
 
 MIME = Mime.from_xmls()
