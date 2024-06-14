@@ -503,6 +503,8 @@ class Mime:
         return t
 
     def is_child(self, child: str, parent: str) -> bool:
+        if child == parent:
+            return True
         parents = self._type_parents.get(child)
         if not parents:
             return False
