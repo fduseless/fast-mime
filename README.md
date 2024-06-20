@@ -18,10 +18,16 @@ pip install fast-mime
 
 ```python
 from fast_mime import MIME
-with open("a.pdf") as fi:
-    mime = MIME(file=fi, name="a.pdf", declared_type="application/pdf", extension=".pdf")
+with open("a.pdf", "rb") as fi:
+    # detect an opened file
+    mime = MIME(fi, name="a.pdf", declared_type="application/pdf", extension=".pdf")
     # all parameters are optional
 
+# detect an unopenned file
+mime = MIME("a.pdf", declared_type="application/pdf", extension=".pdf")
+
+# detect without any hint
+mime = MIME("a")
 ```
 
 ### Customize MIME rules
